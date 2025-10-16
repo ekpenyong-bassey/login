@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Login() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-black-300 p-8">
-      <h1 className="text-5xl frot-bold mb-6">Login</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-black p-8">
+      <h1 className="text-5xl font-bold mb-6">Login</h1>
 
-      <form className="bg-white-700 shadow-md rounded-lg p-8 w-full max-w-sm">
+      <form className="bg-black shadow-md rounded-lg p-8 w-full max-w-sm">
         <input
           type="text"
           placeholder="Username"
@@ -36,6 +36,7 @@ export default function Login() {
       <p className="mt-4 text-sm">
         Don't have an account?{""}
         <a href="/register" className="text-blue-600 hover:underline">
+          register now
         </a>
       </p>
     </div>
